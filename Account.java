@@ -1,7 +1,8 @@
 package pt.ual.bank;
 
 public interface Account {
-    String getNumber();
+    
+	String getNumber();
 
     String getHolder();
 
