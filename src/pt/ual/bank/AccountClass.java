@@ -1,9 +1,10 @@
 package pt.ual.bank;
 
 public class AccountClass implements Account {
-    private String number;
-    private String holder;
-    private double balance;
+   
+	protected String number;
+    protected String holder;
+    protected double balance;
 
     public AccountClass(String number, String holder, double balance) {
         this.number = number;
